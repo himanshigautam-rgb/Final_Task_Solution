@@ -1,24 +1,45 @@
 # Final_Task_Solution (Project Name - Retail Business Performance & Profitability Analysis)
-####  Objective
-Analyze sales and profit data to uncover underperforming product categories, low-margin segments, and regional sales trends.
-
-####  Tools Used
-- Power BI (DAX for calculated fields)
-- CSV Dataset (`SampleSuperstore.csv`)
-
-#### Dashboard Features
-- **Profit by Category** (Bar chart)
-- **Profit Margin by Sub-Category** (Calculated field)
-- **Monthly Sales Trends** (Line chart)
-- **Profit by Region & Segment** (Stacked columns)
-- **Treemap by Sub-Category** (Sales volume)
-- **Interactive Filters**: Region, Segment, Category
-
+---
+#### Objective
+Analyze transactional retail data to uncover underperforming product categories, identify high-margin segments, analyze inventory turnover, and observe seasonal sales trends.
+---
+#### Dataset
+- **Source**: SampleSuperstore.csv (Kaggle)
+- **Fields**: Order Date, Sales, Profit, Quantity, Category, Sub-Category, Region, Segment
+---
+#### Tools Used
+- Power BI (Interactive dashboard)
+- SQL (PostgreSQL/SQLite) for querying profit/sales patterns
+- Python (Jupyter Notebook for correlation & inventory analysis)
+- CSV for data exchange
+---
+#### Project Workflow
+1. Cleaned and loaded data using Python and SQL
+2. Wrote SQL queries to identify low-margin products and trends
+3. Performed correlation and inventory turnover analysis in Python
+4. Created interactive Power BI dashboard with slicers and KPIs
+5. Generated final report summarizing insights and business impact
+---
+#### Power BI Visuals
+- Profit by Category (Bar chart)
+- Profit Margin by Sub-Category (DAX measure)
+- Monthly Sales Trends (Line chart)
+- Region vs Segment Profit (Stacked column)
+- Sales Treemap by Sub-Category
+- Filters: Region, Category, Segment, Year
+- KPI Cards: Total Sales, Profit, Orders
+---
 #### Key Insights
-- Tables and Bookcases have high sales but low profitability
-- West region + Consumer segment generates highest profit
-- Phones dominate overall revenue
+- Furniture category, despite high sales, has lowest profitability
+- Tables and Bookcases offer less than 5% profit margin
+- Sales consistently peak in Q4 (holiday season)
+- Consumer segment generates the most profit in the West region
+- High discounting has a negative effect on profit margins
+---
+#### Conclusion
+This project demonstrates end-to-end data analysis using SQL, Python, and Power BI. Business leaders can use the dashboard to quickly identify underperforming product lines and optimize their strategy.
 
+---
 
 
 
