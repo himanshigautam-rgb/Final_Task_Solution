@@ -1,7 +1,7 @@
 # Final_Task_Solution (Project Name - Retail Business Performance & Profitability Analysis)
 ---
 #### Objective
-Analyze transactional retail data to uncover underperforming product categories, identify high-margin segments, analyze inventory turnover, and observe seasonal sales trends.
+###### Analyze transactional retail data to uncover underperforming product categories, identify high-margin segments, analyze inventory turnover, and observe seasonal sales trends.
 ---
 #### Dataset
 - **Source**: SampleSuperstore.csv (Kaggle)
@@ -86,5 +86,7 @@ This project demonstrates end-to-end data analysis using SQL, Python, and Power 
 - Sales and HR have significantly higher attrition compared to R&D
 ---
 ####  Conclusion
-This project combines Python modeling and Power BI visualization to offer actionable insights into attrition, helping HR teams target retention strategies. ---
+
+
+##### This project combines Python modeling and Power BI visualization to offer actionable insights into attrition, helping HR teams target retention strategies. ---
 ----
