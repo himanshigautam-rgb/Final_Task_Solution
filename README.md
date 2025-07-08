@@ -40,31 +40,33 @@ Analyze transactional retail data to uncover underperforming product categories,
 This project demonstrates end-to-end data analysis using SQL, Python, and Power BI. Business leaders can use the dashboard to quickly identify underperforming product lines and optimize their strategy.
 
 ---
-
+---
 
 
 
 # Final_Task_Solution (Project Name - HR Analytics – Predicting Employee Attrition)
-
+---
 ####  Objective
-This project analyzes HR data to identify key drivers of employee attrition and visualize patterns to support decision-making for improving employee retention.
+
+   This project analyzes HR data to identify key drivers of employee attrition and visualize patterns to support decision-making for improving employee retention.---
+
 
 #### Dataset
 - IBM HR Analytics Attrition Dataset (`WA_Fn-UseC_-HR-Employee-Attrition.csv`)
 - Source: Kaggle
-
+---
 ####  Tools Used
 - Power BI (Dashboard)
 - Python (Pandas, Sklearn, SHAP)
 - CSV Export
-
+---
 ####  Project Workflow
 1. Data cleaning and encoding in Python
 2. Logistic Regression modeling with scaling
 3. SHAP explainability to highlight key attrition factors
 4. Exported cleaned data to CSV for Power BI
 5. Built interactive visuals and filters in Power BI
-
+---
 ####  Power BI Visuals
 - Attrition by Department
 - Income vs Attrition
@@ -76,13 +78,13 @@ This project analyzes HR data to identify key drivers of employee attrition and 
 - Gender × Education Field vs Attrition
 - KPI Cards: Attrition Rate
 - Slicers: Gender, Age Group, Department
-
+---
 ####  Key Insights
 - Employees working overtime are far more likely to leave
 - Low job satisfaction directly correlates with higher attrition
 - Younger, low-income employees are at greater risk
 - Sales and HR have significantly higher attrition compared to R&D
-
+---
 ####  Conclusion
-This project combines Python modeling and Power BI visualization to offer actionable insights into attrition, helping HR teams target retention strategies.
-
+This project combines Python modeling and Power BI visualization to offer actionable insights into attrition, helping HR teams target retention strategies. ---
+----
