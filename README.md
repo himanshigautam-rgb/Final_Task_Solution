@@ -1,7 +1,8 @@
 # Final_Task_Solution (Project Name - Retail Business Performance & Profitability Analysis)
 ---
 #### Objective
-###### Analyze transactional retail data to uncover underperforming product categories, identify high-margin segments, analyze inventory turnover, and observe seasonal sales trends.
+
+##### Analyze transactional retail data to uncover underperforming product categories, identify high-margin segments, analyze inventory turnover, and observe seasonal sales trends.
 ---
 #### Dataset
 - **Source**: SampleSuperstore.csv (Kaggle)
